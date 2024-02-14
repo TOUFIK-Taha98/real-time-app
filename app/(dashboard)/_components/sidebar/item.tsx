@@ -19,7 +19,7 @@ export const Item = ({ id, name, imageUrl }: ItemProps) => {
   const isActive = organization?.id === id;
 
   const onClick = () => {
-    if (!isActive) return;
+    if (!setActive) return;
 
     setActive({ organization: id });
   };
