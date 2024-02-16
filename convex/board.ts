@@ -3,9 +3,9 @@ import { v } from "convex/values";
 import { mutation } from "./_generated/server";
 
 const images = [
-  "/placehoders/1.svg",
-  "/placehoders/6.svg",
-  "/placehoders/7.svg",
+  "/placeholders/1.svg",
+  "/placeholders/6.svg",
+  "/placeholders/7.svg",
 ];
 
 export const create = mutation({
